@@ -3,4 +3,7 @@ module.exports = {
   transform: {
     "^.+\\.vue$": "vue-jest",
   },
+  moduleNameMapper: {
+    "axios": "axios/dist/node/axios.cjs",
+  }
 };
